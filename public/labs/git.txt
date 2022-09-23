@@ -1,0 +1,8 @@
+Create new branch:
+git checkout -b <new-branch>
+
+Create new branch off an existing branch:
+git checkout -b <new-branch> <existing-branch>
+
+Delete a branch:
+git branch -d <branch-name>
