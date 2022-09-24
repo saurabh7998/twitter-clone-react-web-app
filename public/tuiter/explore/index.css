@@ -48,7 +48,7 @@ body {
 }
 
 .wd-explore-tabs {
-    margin: 50px 0px;
+    margin: 50px 0px 0px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -56,3 +56,57 @@ body {
 .wd-border {
     border: solid rgb(47, 51, 54);
 }
+
+.wd-blank-space {
+    background: #282c34;
+    width: 100%;
+    height: 15px;
+}
+
+.wd-post {
+    padding: 20px;
+    border-bottom: solid rgb(47, 51, 54);
+}
+
+.wd-post-custom-font {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    border-radius: 10px;
+    position: relative;
+    left: 350px;
+
+}
+
+.wd-logo {
+    width: 45px;
+    height: 40px;
+    position: relative;
+    top: 12px;
+    right: 5px;
+}
+
+.grid-row {
+    clear: both;
+}
+
+.grid-col-half-page {
+    width: 50%;
+    float: left;
+}
+
+.grid-col-third-page {
+    width: 33%;
+    float: left;
+}
+
+.grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+}
+
