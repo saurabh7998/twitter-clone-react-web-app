@@ -49,9 +49,21 @@ body {
 
 .wd-explore-tabs {
     margin: 50px 0px 0px 0px;
-    display: flex;
     justify-content: space-around;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 500px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+
 
 .wd-border {
     border: solid rgb(47, 51, 54);
@@ -77,10 +89,7 @@ body {
     width: 100px;
     height: 100px;
     margin-right: 16px;
-    border-radius: 10px;
-    position: relative;
-    left: 350px;
-
+    border-radius: 15px;
 }
 
 .wd-logo {
