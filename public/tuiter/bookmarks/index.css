@@ -20,6 +20,11 @@ body {
     color: lightgray;
     font-size: 13px;
 }
+
+.wd-content {
+    display: block;
+
+}
 .wd-content-style{
     font-size: 15px;
     color: white;
@@ -33,7 +38,7 @@ body {
 }
 
 .wd-content-img {
-    width: 514px;
+    width: 100%;
     height: 264px;
     border-radius: 12px;
 }
@@ -68,5 +73,30 @@ body {
 .wd-bk-content {
     padding: 12px 12px 12px 12px ;
 }
+
+.wd-actions {
+    max-width: 400px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.wd-actions-icons {
+    color: gray;
+}
+
+.wd-actions-icons > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.like > a {
+    color: red;
+}
+
+.wd-action-count {
+    margin-left: 12px;
+}
+
 
 
