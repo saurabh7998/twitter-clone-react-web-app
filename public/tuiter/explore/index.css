@@ -77,9 +77,9 @@ body {
 }
 
 .wd-post {
-    width: 100%;
+    width: auto;
     padding: 20px;
-    border-bottom: solid rgb(47, 51, 54);
+    /*border-bottom: solid rgb(47, 51, 54);*/
 }
 
 .wd-post-custom-font {

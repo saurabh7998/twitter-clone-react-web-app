@@ -11,6 +11,12 @@ body {
     border-bottom: solid lightgray 1px;
 }
 
+.wd-edit-icon {
+    float: right;
+    margin-right: 20px;
+    color: #61dafb;
+}
+
 .wd-title-style {
     color: white;
     font-size: 20px;
@@ -25,14 +31,16 @@ body {
     display: block;
 
 }
-.wd-content-style{
+
+.wd-content-style {
     font-size: 15px;
     color: white;
     max-width: 506px;
     margin-bottom: 12px;
     margin-right: 12px;
 }
-.wd-bk-content-handle-style{
+
+.wd-bk-content-handle-style {
     font-size: 15px;
     color: lightgray;
 }
@@ -71,7 +79,7 @@ body {
 }
 
 .wd-bk-content {
-    padding: 12px 12px 12px 12px ;
+    padding: 12px 12px 12px 12px;
 }
 
 .wd-actions {
