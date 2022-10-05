@@ -6,128 +6,153 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous">
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
-<div class="wd-top-panel">
-    <input class="wd-explore-search" type="text" placeholder="Search Tuiter"/>
-    <a href="./explore-settings.html">
-        <img class="wd-settings-icon" src="../../images/gearIcon.png">
-    </a>
-</div>
+<div class="container">
+    <div class="row mt-2">
+        <div class="col-2">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    Home
+                </a>
+                <a href="#"
+                   class="list-group-item list-group-item-action active"
+                   aria-current="true">
+                    Explore
+                </a>
+                <a href="#"
+                   class="list-group-item list-group-item-action">
+                    Notifications
+                </a>
+                <a href="#"
+                   class="list-group-item list-group-item-action">
+                    Messages
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    Bookmarks
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    Lists
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    Profile
+                </a>
+                <a class="list-group-item list-group-item-action">
+                    More
+                </a>
 
-<div class="wd-explore-tabs flex-container">
-    <div class="wd-explore-tab wd-selected-tab">
-        For You
-    </div>
-    <div class="wd-explore-tab">
-        Trending
-    </div>
-    <div class="wd-explore-tab">
-        Covid-19
-    </div>
-    <div class="wd-explore-tab">
-        News
-    </div>
-    <div class="wd-explore-tab">
-        Sports
-    </div>
-    <div class="wd-explore-tab">
-        Entertainment
-    </div>
-</div>
-<div class="wd-blank-space">
-    <!--Empty block-->
-</div>
+                <button type="button" class="btn btn-primary rounded-pill mt-2">
+                    Tuit
+                </button>
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="input-group rounded">
+                <input type="search" class="form-control rounded-pill"
+                       placeholder="Search" aria-label="Search Tuiter"
+                       aria-describedby="search-addon"/>
+            </div>
+            <ul class="nav nav-tabs mt-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"
+                       href="#">For You
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Entertainment</a>
+                </li>
+            </ul>
+            <img src="../../images/spacex_starship.png"
+                 class="img-fluid mt-2 spacex"
+                 alt="spaceX starship image">
 
-<div class="wd-posts">
-    <div class="wd-post wd-border grid-row">
-        <div class="flex-container">
-            <div class="grid-col-two-thirds-page">
-                <span class="wd-post-custom-font">Trending in Science</span>
-                <br/>
-                <span>Starship</span> <br/>
-                <span class="wd-post-custom-font">55.5K Tweets</span> <br/>
-                <br/> <br/>
+            <div class="container">
+                <div class="row pt-1">
+                    <div class="col-8">
+                        Post 1
+                    </div>
+                    <div class="col-4">
+                        Img 1
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-8">
+                        Post 2
+                    </div>
+                    <div class="col-4">
+                        Img 2
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-8">
+                        Post 3
+                    </div>
+                    <div class="col-4">
+                        Img 3
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-8">
+                        Post 4
+                    </div>
+                    <div class="col-4">
+                        Img 4
+                    </div>
+                </div>
+            </div>
 
-                <span class="wd-post-custom-font">Sports . Trending</span><br/>
-                <span>Joe Rogan</span><br/>
-                <span class="wd-post-custom-font">5,218 Tweets</span><br/>
-            </div>
         </div>
+        <div class="col-3">
+            <ul class="list-group">
+                <li class="list-group-item">Who to follow</li>
+                <li class="list-group-item">
+                    A first item
+                    <button type="button"
+                            class="btn btn-primary btn-sm rounded-pill mt-2">
+                        Follow
+                    </button>
+                </li>
+                <li class="list-group-item">
+                    A second item
+                    <button type="button"
+                            class="btn btn-primary btn-sm rounded-pill mt-2">
+                        Follow
+                    </button>
+                </li>
+                <li class="list-group-item">
+                    A third item
+                    <button type="button"
+                            class="btn btn-primary btn-sm rounded-pill mt-2">
+                        Follow
+                    </button>
+                </li>
+                <li class="list-group-item">
+                    A forth item
+                    <button type="button"
+                            class="btn btn-primary btn-sm rounded-pill mt-2">
+                        Follow
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-    </div>
-    <div class="wd-post wd-border grid-row">
-        <div class="flex-container">
-            <div class="grid-col-two-thirds-page">
-                <span>The New York Times</span>
-                <img class="wd-logo" src="../../images/verified-logo.png">
-                <span class="wd-post-custom-font"> . Yesterday</span>
-                <h4>Facing Losses in Ukraine,
-                    Putin Gets More Involved in War
-                    Strategy
-                </h4>
-            </div>
-            <div class="grid-col-third-page">
-                <img class="wd-post-img" src="../../images/news-war.png"/>
-            </div>
-        </div>
-    </div>
-    <div class="wd-post wd-border grid-row">
-        <div class="flex-container">
-            <div class="grid-col-two-thirds-page">
-                <span class="wd-post-custom-font">COVID-19 . LIVE</span>
-                <h4>COVID-19: News and updates
-                    for New York City
-                </h4>
-            </div>
-            <div class="grid-col-third-page">
-                <img class="wd-post-img" src="../../images/covid-19-img.png"/>
-            </div>
-        </div>
-    </div>
-    <div class="wd-post wd-border grid-row">
-        <div class="flex-container">
-            <div class="grid-col-two-thirds-page">
-                <span>Bloomberg</span>
-                <img class="wd-logo" src="../../images/verified-logo.png">
-                <span class="wd-post-custom-font"> . Yesterday </span>
-                <h4>
-                    India becomes the 5th biggest economy, leaving UK behind
-                    which is now at the 6th place.
-                </h4>
-            </div>
-            <div class="grid-col-third-page">
-                <img class="wd-post-img" src="../../images/india-economy.png"/>
-            </div>
-        </div>
-    </div>
-    <div class="wd-post wd-border grid-row">
-        <div class="flex-container">
-            <div class="grid-col-two-thirds-page">
-                <span>Fox News</span>
-                <img class="wd-logo" src="../../images/verified-logo.png">
-                <span class="wd-post-custom-font"> . Jul 31 </span>
-                <h4>
-                    Biden continues to compare student loan handout to PPP,
-                    slams Republicans as hypocrites
-                </h4>
-            </div>
-            <div class="grid-col-third-page">
-                <img class="wd-post-img" src="../../images/biden.png"/>
-            </div>
-        </div>
-    </div>
-    <div class="wd-post wd-border grid-row">
-        <div class="flex-container">
-            <div class="grid-col-two-thirds-page">
-                <span class="wd-post-custom-font">Trending in United States</span>
-                <br/>
-                <span>Apple iPhone 14</span> <br/>
-                <span class="wd-post-custom-font">10.7K Tweets</span> <br/>
-            </div>
-        </div>
-    </div>
 </div>
 
 </body>
