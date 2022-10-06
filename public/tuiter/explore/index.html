@@ -12,6 +12,10 @@
           rel="stylesheet"
           integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
           crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
@@ -20,31 +24,39 @@
         <div class="col-2">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-house-chimney"></i>
                     Home
                 </a>
                 <a href="#"
                    class="list-group-item list-group-item-action active"
                    aria-current="true">
+                    <i class="fa-solid fa-hashtag"></i>
                     Explore
                 </a>
                 <a href="#"
                    class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-bell"></i>
                     Notifications
                 </a>
                 <a href="#"
                    class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-envelope"></i>
                     Messages
                 </a>
                 <a class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-bookmark"></i>
                     Bookmarks
                 </a>
                 <a class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-list"></i>
                     Lists
                 </a>
                 <a class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-user"></i>
                     Profile
                 </a>
                 <a class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-circle-ellipsis"></i>
                     More
                 </a>
 
@@ -54,11 +66,24 @@
             </div>
         </div>
         <div class="col-7">
-            <div class="input-group rounded">
-                <input type="search" class="form-control rounded-pill"
-                       placeholder="Search" aria-label="Search Tuiter"
-                       aria-describedby="search-addon"/>
+            <div class="row">
+                <div class="col-10">
+                    <div
+                            class="input-group rounded position-relative">
+                        <input type="search"
+                               class="form-control rounded-pill searchbar"
+                               placeholder="Search Tuiter"
+                               aria-label="Search Tuiter"
+                               aria-describedby="search-addon" width="100%"/>
+                        <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-gear fa-xl settingsIcon"></i>
+                </div>
             </div>
+
+
             <ul class="nav nav-tabs mt-2">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page"
@@ -78,41 +103,51 @@
                     <a class="nav-link ">Entertainment</a>
                 </li>
             </ul>
-            <img src="../../images/spacex_starship.png"
-                 class="img-fluid mt-2 spacex"
-                 alt="spaceX starship image">
+
+            <div class="position-relative">
+                <img src="../../images/spacex_starship.png"
+                     class="img-fluid mt-2 spacex"
+                     alt="spaceX starship image">
+                <p class="h2 text-white position-absolute bottom-0 ">SpaceX's
+                    Starship</p>
+            </div>
+
 
             <div class="container">
-                <div class="row pt-1">
-                    <div class="col-8">
+                <div class="row border pt-1">
+                    <div class="col-10">
                         Post 1
                     </div>
-                    <div class="col-4">
-                        Img 1
+                    <div class="col-2">
+                        <img src="../../images/reactLogo.png"
+                             class="img-fluid rounded p-1"/>
                     </div>
                 </div>
-                <div class="row pt-1">
-                    <div class="col-8">
+                <div class="row border pt-1">
+                    <div class="col-10">
                         Post 2
                     </div>
-                    <div class="col-4">
-                        Img 2
+                    <div class="col-2">
+                        <img src="../../images/jsLogo.png"
+                             class="img-fluid rounded p-1"/>
                     </div>
                 </div>
-                <div class="row pt-1">
-                    <div class="col-8">
+                <div class="row border pt-1">
+                    <div class="col-10">
                         Post 3
                     </div>
-                    <div class="col-4">
-                        Img 3
+                    <div class="col-2">
+                        <img src="../../images/nodeLogo.png"
+                             class="img-fluid rounded p-1"/>
                     </div>
                 </div>
-                <div class="row pt-1">
-                    <div class="col-8">
+                <div class="row border pt-1">
+                    <div class="col-10">
                         Post 4
                     </div>
-                    <div class="col-4">
-                        Img 4
+                    <div class="col-2">
+                        <img src="../../images/mongoLogo.png"
+                             class="img-fluid rounded p-1"/>
                     </div>
                 </div>
             </div>
@@ -120,29 +155,33 @@
         </div>
         <div class="col-3">
             <ul class="list-group">
-                <li class="list-group-item">Who to follow</li>
-                <li class="list-group-item">
-                    A first item
-                    <button type="button"
-                            class="btn btn-primary btn-sm rounded-pill mt-2">
-                        Follow
-                    </button>
+                <li class="list-group-item row">Who to follow</li>
+                <li class="list-group-item row">
+                    <div class="col-0">
+                        IMG
+                    </div>
+                    <div class="col-12">
+                        A first item
+                    </div>
+
+
+
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item row">
                     A second item
                     <button type="button"
                             class="btn btn-primary btn-sm rounded-pill mt-2">
                         Follow
                     </button>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item row">
                     A third item
                     <button type="button"
                             class="btn btn-primary btn-sm rounded-pill mt-2">
                         Follow
                     </button>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item row">
                     A forth item
                     <button type="button"
                             class="btn btn-primary btn-sm rounded-pill mt-2">
