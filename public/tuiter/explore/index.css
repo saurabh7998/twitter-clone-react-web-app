@@ -1,3 +1,7 @@
+body {
+    font-family: Arial;
+}
+
 .spacex {
     width: 100%;
 }
@@ -13,13 +17,18 @@
     left: 15px;
 }
 
+.settings {
+    justify-items: right;
+}
+
 .settingsIcon {
     position: relative;
+    /*justify-content: end;*/
+    justify-items: left;
     right: 0;
     top: 5px;
 }
 
 .list-group-item {
-
     overflow: clip;
 }

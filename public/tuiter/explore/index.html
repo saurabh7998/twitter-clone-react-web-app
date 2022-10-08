@@ -21,43 +21,91 @@
 <body>
 <div class="container">
     <div class="row mt-2">
-        <div class="col-2">
+        <div class="col">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">
-                    <i class="fa-solid fa-house-chimney"></i>
-                    Home
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            Home
+                        </div>
+                    </div>
                 </a>
                 <a href="#"
                    class="list-group-item list-group-item-action active"
                    aria-current="true">
-                    <i class="fa-solid fa-hashtag"></i>
-                    Explore
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            Explore
+                        </div>
+                    </div>
                 </a>
                 <a href="#"
                    class="list-group-item list-group-item-action">
-                    <i class="fa-solid fa-bell"></i>
-                    Notifications
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            Notifications
+                        </div>
+                    </div>
                 </a>
                 <a href="#"
                    class="list-group-item list-group-item-action">
-                    <i class="fa-solid fa-envelope"></i>
-                    Messages
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            Messages
+                        </div>
+                    </div>
                 </a>
                 <a class="list-group-item list-group-item-action">
-                    <i class="fa-solid fa-bookmark"></i>
-                    Bookmarks
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-bookmark"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            Bookmarks
+                        </div>
+                    </div>
                 </a>
                 <a class="list-group-item list-group-item-action">
-                    <i class="fa-solid fa-list"></i>
-                    Lists
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-list"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            Lists
+                        </div>
+                    </div>
                 </a>
                 <a class="list-group-item list-group-item-action">
-                    <i class="fa-solid fa-user"></i>
-                    Profile
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            Profile
+                        </div>
+                    </div>
                 </a>
                 <a class="list-group-item list-group-item-action">
-                    <i class="fa-solid fa-circle-ellipsis"></i>
-                    More
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-solid fa-circle-ellipsis"></i>
+                        </div>
+                        <div class="col d-none d-xl-block">
+                            More
+                        </div>
+                    </div>
                 </a>
 
                 <button type="button" class="btn btn-primary rounded-pill mt-2">
@@ -78,7 +126,7 @@
                         <i class="fa-solid fa-magnifying-glass searchIcon"></i>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col settings">
                     <i class="fa-solid fa-gear fa-xl settingsIcon"></i>
                 </div>
             </div>
@@ -96,10 +144,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">News</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link ">Sports</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-lg-block">
                     <a class="nav-link ">Entertainment</a>
                 </li>
             </ul>
@@ -116,36 +164,77 @@
             <div class="container">
                 <div class="row border pt-1">
                     <div class="col-10">
-                        Post 1
+                        <div class="text-secondary">
+                            Web Development
+                        </div>
+                        <div>
+                            <span class="fw-bolder">ReactJs</span>
+                            <i class="fa fa-duotone fa-badge-check"></i>
+                            <span class="text-secondary"> - 2h</span>
+                        </div>
+                        <div class="fw-semibold">
+                            React.js is a component based front end library
+                            that makes it very easy to build Single Page
+                            Application or SPAs
+                        </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <img src="../../images/reactLogo.png"
                              class="img-fluid rounded p-1"/>
                     </div>
                 </div>
                 <div class="row border pt-1">
                     <div class="col-10">
-                        Post 2
+                        <div>
+                            <span class="fw-bolder">JavaScript</span>
+                            <i class="fa fa-duotone fa-badge-check"></i>
+                            <span class="text-secondary"> - 2h</span>
+                        </div>
+                        <div class="fw-semibold">
+                            JavaScript is a programming language that can run
+                            on browser as well as on desktops
+                        </div>
+                        <div class="text-secondary">
+                            123K Tuits
+                        </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <img src="../../images/jsLogo.png"
                              class="img-fluid rounded p-1"/>
                     </div>
                 </div>
                 <div class="row border pt-1">
                     <div class="col-10">
-                        Post 3
+                        <div class="text-secondary">
+                            Web Development
+                        </div>
+                        <div class="fw-bolder">
+                            NodeJS
+                            <i class="fa fa-duotone fa-badge-check"></i>
+                        </div>
+                        <div class="text-secondary">
+                            134K Tuits
+                        </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <img src="../../images/nodeLogo.png"
                              class="img-fluid rounded p-1"/>
                     </div>
                 </div>
-                <div class="row border pt-1">
+                <div class="row border pt-1 mb-1">
                     <div class="col-10">
-                        Post 4
+                        <div class="text-secondary">
+                            Web Development
+                        </div>
+                        <div class="fw-bolder">
+                            MongoDB
+                            <i class="fa fa-duotone fa-badge-check"></i>
+                        </div>
+                        <div class="text-secondary">
+                            100K Tuits
+                        </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col">
                         <img src="../../images/mongoLogo.png"
                              class="img-fluid rounded p-1"/>
                     </div>
@@ -153,40 +242,99 @@
             </div>
 
         </div>
-        <div class="col-3">
+        <div class="col-3 d-none d-lg-block">
             <ul class="list-group">
-                <li class="list-group-item row">Who to follow</li>
-                <li class="list-group-item row">
-                    <div class="col-0">
-                        IMG
+                <li class="list-group-item fw-bold">Who to follow</li>
+                <li class="list-group-item">
+
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="../../images/java.png"
+                                 class="img-fluid rounded p-1"/>
+                        </div>
+                        <div class="col-6">
+                            <div class="fw-bold">
+                                Java
+                            </div>
+                            <div>
+                                @Java
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <button type="button"
+                                    class="btn btn-primary btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        A first item
+                </li>
+                <li class="list-group-item">
+
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="../../images/virginGalacticLogo.png"
+                                 class="img-thumbnail virgin rounded p-1"/>
+                        </div>
+                        <div class="col-6">
+                            <div class="fw-bold">
+                                Virgin Galactic
+                            </div>
+                            <div>
+                                @virgingalactic
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <button type="button"
+                                    class="btn btn-primary btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
                     </div>
-
-
-
                 </li>
-                <li class="list-group-item row">
-                    A second item
-                    <button type="button"
-                            class="btn btn-primary btn-sm rounded-pill mt-2">
-                        Follow
-                    </button>
+                <li class="list-group-item">
+
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="../../images/nasaLogo.png"
+                                 class="img-fluid rounded p-1"/>
+                        </div>
+                        <div class="col-6">
+                            <div class="fw-bold">
+                                NASA
+                            </div>
+                            <div>
+                                @NASA
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <button type="button"
+                                    class="btn btn-primary btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
                 </li>
-                <li class="list-group-item row">
-                    A third item
-                    <button type="button"
-                            class="btn btn-primary btn-sm rounded-pill mt-2">
-                        Follow
-                    </button>
-                </li>
-                <li class="list-group-item row">
-                    A forth item
-                    <button type="button"
-                            class="btn btn-primary btn-sm rounded-pill mt-2">
-                        Follow
-                    </button>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="../../images/teslaLogo.png"
+                                 class="img-fluid rounded p-1"/>
+                        </div>
+                        <div class="col-6">
+                            <div class="fw-bold">
+                                Tesla
+                            </div>
+                            <div>
+                                @Tesla
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <button type="button"
+                                    class="btn btn-primary btn-sm rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
