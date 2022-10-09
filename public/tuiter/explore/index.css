@@ -2,33 +2,44 @@ body {
     font-family: Arial;
 }
 
-.spacex {
+.wd-spacex {
     width: 100%;
 }
 
-.searchbar::placeholder {
+.wd-searchPanel {
+    display: flex;
+}
+.wd-searchbar::placeholder {
     position: absolute;
     left: 50px;
 }
 
-.searchIcon {
+.wd-searchIcon {
     position: absolute;
     top: 10px;
     left: 15px;
 }
 
-.settings {
+.wd-settings {
     justify-items: right;
 }
 
-.settingsIcon {
+.wd-settingsIcon {
     position: relative;
     /*justify-content: end;*/
     justify-items: left;
     right: 0;
-    top: 5px;
+    top: 16px;
+    padding-left: 5px;
 }
 
-.list-group-item {
-    overflow: clip;
+.wd-acc-img {
+    max-width: 60px;
+    max-height: 60px;
 }
+
+
+
+/*.list-group{*/
+/*    display:inline-block;*/
+/*}*/
