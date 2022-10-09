@@ -8,10 +8,12 @@ body {
 
 .wd-searchPanel {
     display: flex;
+    max-width: 720px;
 }
 .wd-searchbar::placeholder {
     position: absolute;
-    left: 50px;
+    left: 70px;
+    /*padding-left: 500px;*/
 }
 
 .wd-searchIcon {
@@ -28,9 +30,9 @@ body {
     position: relative;
     /*justify-content: end;*/
     justify-items: left;
-    right: 0;
-    top: 16px;
-    padding-left: 5px;
+    right: 0px;
+    top: 7px;
+    padding-left: 15px;
 }
 
 .wd-acc-img {
