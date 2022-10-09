@@ -8,7 +8,7 @@ body {
 
 .wd-searchPanel {
     display: flex;
-    max-width: 720px;
+    max-width: 760px;
 }
 .wd-searchbar::placeholder {
     position: absolute;
@@ -32,7 +32,7 @@ body {
     justify-items: left;
     right: 0px;
     top: 7px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .wd-acc-img {
