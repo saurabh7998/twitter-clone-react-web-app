@@ -1,8 +1,13 @@
 Create new branch:
-git checkout -b <new-branch>
+-> git checkout -b <new-branch>
 
 Create new branch off an existing branch:
-git checkout -b <new-branch> <existing-branch>
+-> git checkout -b <new-branch> <existing-branch>
 
 Delete a branch:
-git branch -d <branch-name>
+-> git branch -d <branch-name>
+
+Track remote branch with local:
+First switch to local branch which you want to track and execute:
+ --> git fetch
+ --> git branch --set-upstream-to=origin/<branch-name>
