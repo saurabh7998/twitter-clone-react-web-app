@@ -49,7 +49,7 @@ const ExploreComponent = () => {
                 <p class="h2 text-white position-absolute bottom-0 ">SpaceX's
                     Starship</p>
             </div>
-            <div class="container">
+            <div class="">
                 ${PostSummaryList()}
             </div>
     `)

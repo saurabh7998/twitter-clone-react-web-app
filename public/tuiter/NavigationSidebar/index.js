@@ -1,26 +1,27 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return (`
         <div class="list-group">
                 <a href=""
-                   class="list-group-item list-group-item-action">
+                   class="list-group-item list-group-item-action 
+                          ${active === 'home' ? 'active' : ''}">
                     <div class="row">
                         <i class="fa-brands fa-twitter"></i>
                     </div>
                 </a>
-                <a href="#"
+                <a href="../HomeScreen/index.html"
                    class="list-group-item list-group-item-action">
                     <div class="row">
                         <div class="col-2">
                             <i class="fa-solid fa-house-chimney"></i>
                         </div>
-                        <div
-                                class="col d-none d-xl-inline">
+                        <div class="col d-none d-xl-inline">
                             Home
                         </div>
                     </div>
                 </a>
-                <a href="#"
-                   class="list-group-item list-group-item-action active"
+                <a href="../explore/index.html"
+                   class="list-group-item list-group-item-action 
+                          ${active === 'explore' ? 'active' : ''}"
                    aria-current="true">
                     <div class="row">
                         <div class="col-2">
