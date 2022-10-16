@@ -11,6 +11,7 @@ export default [
         content: 'From Training to launch to landing, this all-access docuseries'
                  + ' rides along with the inspiration4  crew on the first'
                  + ' all-civillian orbital space ...',
+        link: 'netflix.com',
         replies: '4.2K',
         retuits: '3.5K',
         likes: '37.5K',
@@ -25,6 +26,7 @@ export default [
         contentImage: '../../images/grimes.png',
         contentTitle: '',
         content: '',
+        link: '',
         replies: '965',
         retuits: '2.4K',
         likes: '4K',

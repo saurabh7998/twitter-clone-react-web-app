@@ -10,6 +10,7 @@ const PostItem = (post) => {
                         <span><i class="fa-solid fa-circle-check"></i></span>
                         <span class="text-white-50">${post.handleName}</span>
                         <span class="text-white-50"> - ${post.time}</span>
+                        <i class="fa-solid fa-ellipsis float-end text-white-50"></i>
                      </div>
                     <div class="pb-2">${post.heading}</div>
                     <div class="card" style="width: 100%;">
@@ -22,6 +23,10 @@ const PostItem = (post) => {
                                         </div>
                                         <div class="text-white-50">
                                            ${post.content}
+                                        </div>
+                                        <div class="link text-white-50">
+                                            <i class="fa-solid fa-link"></i>
+                                            ${post.link}
                                         </div>
                                     </p>
                                 </div>` : ''
