@@ -16,7 +16,7 @@ export default [
         title: ' JavaScript is a programming language that can run\n'
                + 'on browser as well as on desktops',
         image: '../../images/jsLogo.png',
-        tweets: '123K'
+        tweets: '123K Tuits'
     },
     {
         topic: 'Web Development',
@@ -24,7 +24,7 @@ export default [
         time: 'last week',
         title: '',
         image: '../../images/nodeLogo.png',
-        tweets: '134K'
+        tweets: '134K Tuits'
     },
     {
         topic: 'Web Development',
@@ -32,6 +32,6 @@ export default [
         time: 'last month',
         title: '',
         image: '../../images/mongoLogo.png',
-        tweets: '100K'
+        tweets: '100K Tuits'
     },
 ]
