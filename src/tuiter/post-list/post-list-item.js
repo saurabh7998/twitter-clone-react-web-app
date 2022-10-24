@@ -8,13 +8,13 @@ const PostListItem = ({post}) => {
             </div>
             <div class="col">
                 <div>
-                    <span className="text-white">{post.userName}</span>
-                    <span><i class="fa-solid fa-circle-check"></i></span>
-                    <span class="text-white-50">  {post.handleName}</span>
-                    <span class="text-white-50"> - {post.time}</span>
-                    <i class="fa-solid fa-ellipsis float-end text-white-50"></i>
+                    <span className="">{post.userName} </span>
+                    <span> <i className="bi bi-patch-check-fill"></i></span>
+                    <span class="">  {post.handleName}</span>
+                    <span class=""> - {post.time}</span>
+                    <i class="fa-solid fa-ellipsis float-end "></i>
                 </div>
-                <div class="pb-2 text-white">{post.heading}</div>
+                <div class="pb-2 ">{post.heading}</div>
                 <div class="card">
                     <img src={post.contentImage} class="card-img-top"
                          alt="..."/>
@@ -24,10 +24,10 @@ const PostListItem = ({post}) => {
                              <div class="">
                                  {post.contentTitle}
                              </div>
-                             <div class="text-white-50">
+                             <div class="">
                                  {post.content}
                              </div>
-                             <div class="link text-white-50">
+                             <div class="link">
                                  <i class="fa-solid fa-link"></i>
                                  {post.link}
                              </div>
@@ -35,7 +35,7 @@ const PostListItem = ({post}) => {
                      </div> : <></>
                     }
                 </div>
-                <div class="row text-white-50 pt-3 justify-content-evenly">
+                <div class="row  pt-3 justify-content-evenly">
                     <div class="col">
                         <span><i className="bi bi-chat"></i></span>
                         <span>  {post.replies}</span>
