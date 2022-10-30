@@ -21,10 +21,10 @@ const TuitItem = ({post}) => {
                     <span> <i className="bi bi-patch-check-fill"></i></span>
                     <span className="">  {post.handleName}</span>
                     <span className=""> - {post.time}</span>
-                    <i
-                        className="bi bi-x-lg float-end"
-                        onClick={() => tuitDelete(post)}
-                    ></i>
+                    <button type="button" className="btn-close float-end"
+                            aria-label="Close" onClick={() => tuitDelete(post)}
+                    ></button>
+
                 </div>
                 <div className="pb-2 ">{post.content}</div>
                 <TuitStats post={post}/>
