@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+}
+
+.wd-spacex {
+    width: 100%;
+}
+
+.wd-searchPanel {
+    display: flex;
+    max-width: 760px;
+}
+.wd-searchbar::placeholder {
+    position: absolute;
+    left: 70px;
+    /*padding-left: 500px;*/
+}
+
+.wd-searchIcon {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.wd-settings {
+    justify-items: right;
+}
+
+.wd-settingsIcon {
+    position: relative;
+    /*justify-content: end;*/
+    justify-items: left;
+    right: 0px;
+    top: 7px;
+    padding-left: 20px;
+}
+
+.wd-acc-img {
+    width: 55px;
+    height: 55px;
+}
+
+
+
+/*.list-group{*/
+/*    display:inline-block;*/
+/*}*/
