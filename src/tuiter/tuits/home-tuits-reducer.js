@@ -1,14 +1,14 @@
 import {createSlice} from "@reduxjs/toolkit";
 import homeTuits from './home-tuits';
 
-const currentUser = {
-    "userName": "Saurabh",
-    "handleName": "@saurabh7998",
-    "avatarImage": "/images/avatar.png",
-};
+// const currentUser = {
+//     "userName": "Saurabh",
+//     "handleName": "@saurabh7998",
+//     "avatarImage": "/images/avatar.png",
+// };
 
 const templateTuit = {
-    ...currentUser,
+    // ...currentUser,
     "topic": "General",
     "time": "23h",
     "replies": "4.2K",
