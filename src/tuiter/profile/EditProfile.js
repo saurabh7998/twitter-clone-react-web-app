@@ -10,6 +10,7 @@ const EditProfile = () => {
     const [bio, setBio] = useState(userInfo.bio)
     const [location, setLocation] = useState(userInfo.location)
     const [website, setWebsite] = useState(userInfo.website)
+    const [dateOfBirth, setBirthDate] = useState(userInfo.dateOfBirth)
 
     const dispatch = useDispatch()
     const navigate = useNavigate()
@@ -20,6 +21,7 @@ const EditProfile = () => {
                                     bio: bio,
                                     website: website,
                                     location: location,
+                                    dateOfBirth: dateOfBirth,
                                 }))
         navigate("/tuiter/profile")
 
@@ -85,6 +87,14 @@ const EditProfile = () => {
                            onChange={(e) => setWebsite(e.target.value)}
                     />
                     <label htmlFor="floatingInputGrid" className="ms-2">Website</label>
+                </div>
+                <div className="form-floating mb-4">
+                    <input type="text" className="form-control"
+                           id="floatingInputGrid" placeholder=""
+                           value={dateOfBirth}
+                           onChange={(e) => setBirthDate(e.target.value)}
+                    />
+                    <label htmlFor="floatingInputGrid" className="ms-2">Birth Date</label>
                 </div>
             </div>
         </div>
