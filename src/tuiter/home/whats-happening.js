@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {createTuit} from "../tuits/home-tuits-reducer";
+import {createTuit} from "../reducers/home-tuits-reducer";
 
 const WhatsHappening = () => {
     const [whatsHappening, setWhatsHappening] = useState('');

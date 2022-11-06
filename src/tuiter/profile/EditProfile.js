@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {saveNewProfile} from "./profile-reducer";
+import {saveNewProfile} from "../reducers/profile-reducer";
 import {useNavigate} from "react-router";
 
 const EditProfile = () => {

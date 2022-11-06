@@ -1,8 +1,9 @@
 import React from "react";
 import PostListItem from "./post-list-item";
-import postsArray from "./home-posts.json";
+import {useSelector} from "react-redux";
 
 const PostList = () => {
+    const postsArray = useSelector((state) => state.homeTuits)
     return (
         <div>
             {

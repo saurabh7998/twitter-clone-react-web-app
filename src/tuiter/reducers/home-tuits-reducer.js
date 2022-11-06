@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import homeTuits from './home-tuits';
+import homeTuits from '../data/home-tuits.json';
 
 // const currentUser = {
 //     "userName": "Saurabh",

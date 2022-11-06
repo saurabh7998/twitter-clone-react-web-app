@@ -6,11 +6,11 @@ import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
 import {Provider} from "react-redux";
 import whoReducer from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer";
-import homeTuitsReducer from "./tuits/home-tuits-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
+import homeTuitsReducer from "./reducers/home-tuits-reducer";
 import {configureStore} from "@reduxjs/toolkit";
 import Profile from "./profile";
-import profileReducer from "./profile/profile-reducer";
+import profileReducer from "./reducers/profile-reducer";
 import EditProfile from "./profile/EditProfile";
 
 const store = configureStore({
