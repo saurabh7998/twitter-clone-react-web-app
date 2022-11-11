@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {createTuit} from "../reducers/home-tuits-reducer";
+import {createTuitThunk} from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
     const [whatsHappening, setWhatsHappening] = useState('');
@@ -14,8 +15,9 @@ const WhatsHappening = () => {
             "handleName": userInfo.handle,
             "avatarImage": userInfo.profilePicture,
             "content": whatsHappening,
+            "likes": 0,
         }
-        dispatch(createTuit(newTuit))
+        dispatch(createTuitThunk(newTuit))
     }
     return (
         <div className="row">
