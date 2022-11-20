@@ -8,7 +8,7 @@ const TuitItem = ({post}) => {
     const tuitDelete = (post) => {
         dispatch(deleteTuitThunk(post));
     }
-
+    console.log(post);
     return (
         <div className="row border border-secondary p-3">
             <div className="col-2 avatar">

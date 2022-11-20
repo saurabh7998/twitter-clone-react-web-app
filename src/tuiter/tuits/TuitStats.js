@@ -4,8 +4,7 @@ import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = ({post}) => {
     const dispatch = useDispatch()
-    console.log(post.likes)
-
+    console.log(post.dislikes);
     return (
         <div>
             <div className="pb-2 ">{post.heading}</div>
@@ -55,6 +54,22 @@ const TuitStats = ({post}) => {
                         }
                     </span>
                     <span>  {post.likes}</span>
+                </div>
+                <div className="col">
+                    <span>
+                        <i className="bi bi-hand-thumbs-down"
+                           onClick={() =>
+                               dispatch(updateTuitThunk({
+                                                            ...post,
+                                                            dislikes: post.dislikes + 1,
+                                                            disliked: !post.disliked
+                                                        }))
+                           }
+                        >
+
+                        </i>
+                    </span>
+                    <span> {post.dislikes}</span>
                 </div>
                 <div className="col">
                     <span><i className="bi bi-arrow-bar-up"></i></span>
