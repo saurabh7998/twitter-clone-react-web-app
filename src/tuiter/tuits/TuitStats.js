@@ -4,7 +4,6 @@ import {updateTuitThunk} from "../../services/tuits-thunks";
 
 const TuitStats = ({post}) => {
     const dispatch = useDispatch()
-    console.log(post.dislikes);
     return (
         <div>
             <div className="pb-2 ">{post.heading}</div>
