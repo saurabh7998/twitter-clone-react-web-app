@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Twitter Clone React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a Twitter clone web application built using React.js, Bootstrap, JavaScript, Node.js, Express.js, and MongoDB. The project aims to replicate the core functionality of Twitter, allowing users to create accounts, log in, and interact with tweets.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Users can sign up and log in to the application, securing their personal data and tweets.
 
-### `npm start`
+- **Home Page**: The application features a home page that displays general information or tweets from different users.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Tweet Creation**: Authenticated users can compose and publish their tweets, sharing their thoughts with others.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Like/Unlike Tweets**: Users can express their appreciation for tweets by liking them. They can also unlike tweets if they change their minds.
 
-### `npm test`
+- **Edit Personal Information**: Users have the ability to update their personal information, allowing them to keep their profile up to date.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+The project utilizes a range of technologies, including:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: React.js is used to build the user interface, ensuring an interactive and responsive experience. Bootstrap is employed for styling and layout purposes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Backend**: The backend of the application is powered by Node.js and Express.js, handling requests and serving data to the frontend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Database**: MongoDB serves as the database to store user information, tweets, and likes.
 
-### `npm run eject`
+## How to Run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the application locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Ensure you have Node.js and MongoDB installed on your machine.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Clone the repository to your local system using the command `git clone <repository-url>`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Navigate to the project directory in your terminal.
 
-## Learn More
+4. Install the required dependencies by running `npm install`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Set up MongoDB and ensure it is running locally or hosted on a cloud service. Update the MongoDB connection URI in the backend code accordingly.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Start the backend server (You can find server repo on my Github - tuiter-node-server-app) by running `npm start` in the backend directory.
 
-### Code Splitting
+7. Start the frontend application by running `npm start` in the frontend directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+8. Access the application in your web browser at `http://localhost:3000`.
