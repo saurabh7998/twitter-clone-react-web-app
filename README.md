@@ -2,6 +2,8 @@
 
 This repository contains a Twitter clone web application built using React.js, Bootstrap, JavaScript, Node.js, Express.js, and MongoDB. The project aims to replicate the core functionality of Twitter, allowing users to create accounts, log in, and interact with tweets.
 
+![tuiter-app-preview](public/Tuiter-Preview.png)
+
 ## Features
 
 - **User Authentication**: Users can sign up and log in to the application, securing their personal data and tweets.
